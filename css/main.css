@@ -307,7 +307,7 @@ ul li::before {
     }
 
     .info .info-head  {
-        padding: 5px;
+        padding: 0;
     }
 
     .left-side {
@@ -315,6 +315,10 @@ ul li::before {
         left: 0;
         margin-left: 0;
         bottom: -15px;
+    }
+
+    .info .containar .info-head > h1 {
+        letter-spacing: -1px;
     }
 }
 
