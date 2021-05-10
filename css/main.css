@@ -294,6 +294,29 @@ ul li::before {
 
 .info ul li {margin-bottom: 20px;}
 
+@media (max-width:767px) {
+    .list {
+        text-align: center;
+    }
+    ul li {
+        padding: 0;
+    }
+
+    .list a {
+        display: block;
+    }
+
+    .info .info-head  {
+        padding: 5px;
+    }
+
+    .left-side {
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        bottom: -15px;
+    }
+}
 
 @media (min-width:768px) {
 
